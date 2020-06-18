@@ -6,6 +6,10 @@ body {
   color: white;
 }
 
+.main-container {
+  margin: 20px 0 0 40px;
+}
+
 .get-btn {
   font-size: large;
   background-color: rgb(216, 195, 3);
@@ -13,8 +17,30 @@ body {
   margin: 5px 5px 5px 5px;
 }
 
+.users-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 12rem;
+}
+
+.users-list > li:hover {
+  cursor: pointer;
+  background-color: #1d2025;
+}
+
 .user-box {
   align-items: center;
+}
+
+.user-box h2 {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: normal;
 }
 
 .user-img {
